@@ -26,22 +26,3 @@ class Sample extends React.Component<Props> {
 }
 
 export default Sample;
-
-// export default class Sample extends Component {
-//     activateLasers = () => {
-//         alert(this.concat('activate', 'laser'));
-//         // alert(this.concat(1, 2));
-//     }
-
-//     concat = (a: string, b: string) => {
-//         return `${a} ${b}`;
-//     }
-
-//     render () {
-//         return (
-//             <button onclick={this.activateLasers}>
-//                 Activate Lasers
-//             </button>
-//         )
-//     }
-// }

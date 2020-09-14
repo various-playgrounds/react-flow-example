@@ -9,7 +9,6 @@ class Sample extends React.Component<Props> {
   // Warning: this is *experimental* syntax.
   handleClick = () => {
     console.log(this.concat("hello", "world"));
-    console.log(this.concat(1, 2));
   }
 
   concat = (a: string, b: string) :string => {

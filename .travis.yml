@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - "stable"
+before_install:
+  npm install --save-dev flow-bin
+script:
+  - npm run flow
+  - npm run test
